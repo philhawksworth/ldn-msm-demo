@@ -1,5 +1,6 @@
 var gravatar = require('gravatar');
 
+
 export function handler(event, context, callback) {
   console.log(event);
   let { email } = event.queryStringParameters;
